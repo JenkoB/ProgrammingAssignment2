@@ -28,4 +28,4 @@ cacheSolve <- function(x, ...) {
         m <- solve(matrix, ...)                           ## compute the value of the inverse of the input matrix
         x$setmatrix(m)                                  ## run the setmatrix function on the inverse to cache the inverse
         m                                               ## return the inverse
-}
+} 
